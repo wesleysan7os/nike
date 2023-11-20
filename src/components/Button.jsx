@@ -9,11 +9,11 @@ const Button = ({ label, iconUrl }) => {
     >
       {label}
 
-      <img 
+      { iconUrl && <img 
         src={iconUrl}
         alt='arrow right icon'
         className='ml-2 rounded-full w-5 h-5'
-      />
+      /> }
     </button>
   )
 }
