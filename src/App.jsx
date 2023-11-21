@@ -11,6 +11,7 @@ import {
  } from './sections'
 
 import './index.css'
+import ScrollButton from './components/ScrollButton'
 
 const App = () => (
   <main className='relative'>
@@ -39,6 +40,7 @@ const App = () => (
     <section className='bg-black padding-x padding-t pb-8'>
       <Footer />
     </section>
+    <ScrollButton />
   </main>
 )
 
