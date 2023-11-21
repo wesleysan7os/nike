@@ -9,7 +9,6 @@ const ScrollButton = () => {
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
-      console.log('currentScrollPos: ', currentScrollPos)
       setShowButton(currentScrollPos < prevScrollPos && currentScrollPos !== 0);
       setPrevScrollPos(currentScrollPos);
     };
